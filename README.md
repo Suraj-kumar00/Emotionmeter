@@ -1,6 +1,6 @@
-# Emotiometer 
-## Building a Real-Time Twitter Sentiment Analysis Web App with Python and Flask
+# Emotiometer
 
+## Building a Real-Time Twitter Sentiment Analysis Web App with Python and Flask
 
 Sentiment Analysis on Twitter(X) Data with DevOps Implementation
 
@@ -21,5 +21,3 @@ This project involves understanding the sentiment (positive, negative, or neutra
 
 - So I'm using a bootstrap framewokr as well here in conjuction with flask to use HTML based elements like a drop-down, buttons, checkboxes, JavaScript so and so forth to make my webpage more responsive.
 - Bootstrap is again a free and open-source CSS framework which is very helpful in building responsive mobile first front-end web application.
-
-- Here i picked a ready-made template from `bootsnap.com`
