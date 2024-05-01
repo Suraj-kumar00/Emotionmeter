@@ -17,4 +17,4 @@ This project involves understanding the sentiment (positive, negative, or neutra
 
 ### A brief intro to flask
 
-<!-- - Flask is a python-based micro web open-source framework which doesn't require particular tools or libraries. So flask doesn't have any form validation data abstraction layer or any other components as such but throuch third-party libraries or extensions you can add various features like form validation, upload hanlder and various other functions. -->
+- Flask is a python-based micro web open-source framework which doesn't require particular tools or libraries. So flask doesn't have any form validation data abstraction layer or any other components as such but throuch third-party libraries or extensions you can add various features like form validation, upload hanlder and various other functions.
