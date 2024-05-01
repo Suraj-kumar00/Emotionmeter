@@ -14,10 +14,10 @@ app = Flask(__name__)
 app.static_folder = 'static'
 
 
-consumer_key      = "6n1ASrTPW1Pb77YlG3GP4X3uu"
-consumer_secret   = "noMsTJEaiMjuekZ5AKimoKSrKXp1PGmF2SE4MerRSVndqgOFf5"
-access_token      = "1680502876588634112-ybQuluKDnj0R5XtIc4zf9AswxLNQeV"
-access_token_secret = "YlsKwPajGlk7S0Ys9sRvYatj4WfB6Bwdd2DgieuFe6pB0"
+consumer_key      = ""
+consumer_secret   = ""
+access_token      = ""
+access_token_secret = ""
 
 try: 
     auth = OAuthHandler(consumer_key, consumer_secret)  
