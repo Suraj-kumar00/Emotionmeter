@@ -8,18 +8,25 @@
 </head>
 
 <body>
-	<div id="contact">
-  <h1>Sentiment Analysis Result : </h1>
+  <div id="contact">
+    <h1>Sentiment Analysis Result : </h1>
   </div>
+ 
+  {% if result is none %}
+    <p>No tweets found for your query.</p>
+  {% else %}
     <table class="table table-bordered">
-      {% for  value in result %}
+      {% for value in result %}
         <tr>
-          <th> {{value["text"]}} </th>
-          <td> {{value["sentiment"]}} </td>
-       </tr>
+          <th> {{ value["text"] }} </th>
+          <td> {{ value["sentiment"] }} </td>
+        </tr>
       {% endfor %}
     </table>
-</form>
+  {% endif %}
+
 </body>
 
 </html>
+
+
