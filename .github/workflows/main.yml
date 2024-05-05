@@ -25,4 +25,4 @@ jobs:
         pip install pytest  # Install pytest
 
     - name: Run tests
-      run: pytest  # Run pytest
+      run: pytest tests  # Run pytest from the 'tests' directory
