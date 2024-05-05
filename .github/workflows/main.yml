@@ -25,4 +25,5 @@ jobs:
         pip install pytest  # Install pytest
 
     - name: Run tests
-      run: pytest tests  # Run pytest from the 'tests' directory
+      run: pytest  # Run pytest from the root directory
+
